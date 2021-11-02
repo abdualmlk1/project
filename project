@@ -1,0 +1,10 @@
+public class Main
+{
+	public static void main(String[] args) {
+		int seconds, minutes, remainingSecounds ;
+		seconds=4000;
+		minutes = seconds /60;
+		remainingSecounds = seconds % 60;
+	System.out.println(seconds + " seconds is " + minutes + " minutes and " + remainingSecounds + " seconds");
+	}
+}
